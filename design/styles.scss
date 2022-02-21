@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
 
     .card {
@@ -146,8 +147,7 @@ body {
     }
 
     .attribution {
-        position: absolute;
-        bottom: 30px;
+        margin-top: 25px;
         color: var(--soft-blue);
         font-size: 15px;
 
